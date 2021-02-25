@@ -3,6 +3,7 @@ import sys
 sys.path.append("../../../..")
 from org.tic4302.test3.main import get_greeting
 
+# add info for testing
 class Testing(unittest.TestCase):
     def test_get_greeting(self):
         greeting = get_greeting()
